@@ -1,70 +1,53 @@
-# Getting Started with Create React App
+# Mini Portfolio Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<img src="/assets/thumbnail.png" alt="" width="500px" />
 
-## Available Scripts
+This responsive portfolio website was [originally written](https://github.com/bedimcode/responsive-mini-portfolio) in HTML/CSS/JS.
 
-In the project directory, you can run:
+### Readability and Functional Improvements
+* Refactored the original HTML file into JSX and split the code up into several React components
+* Created databases for Projects and Skills items to keep the components DRY
+* Implemented the light/dark theme and Projects/Skills rocker functionalities using React State Hooks rather than pure JS
 
-### `npm start`
+## Installation
+1. ```git clone https://github.com/rglanz/react-mini-portfolio.git```
+2. ``` cd react-mini-portfolio```
+3. ```npm install```
+4. ```npm start```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Editing for Personal Use
+All images and the CV pdf are found in the ```public``` directory.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Customize icons from [this library](https://react-icons.github.io/react-icons/icons?name=ri).
 
-### `npm test`
+***Make sure to change the following elements***:
+* Browser tab icon (```/public/img/favicon.png```)
+* Profile picture (```/public/img/perfil.png```; use 440x513 resolution for best results)
+* Name, job title (```/src/components/Header/Header.jsx```)
+* Social icons (```/src/components/Header/Social.jsx```; you can change the icons as well as the url)
+* Years of work, completed projects, and satisfied customers (```/src/components/Header/Stats.jsx```)
+* CV file (```/public/pdf/Gianell-Cv.pdf```)
+* WhatsApp, Messenger (```/src/components/Header/CV.jsx```; you can change the icons as well as the url)
+* Projects (```/src/components/Portfolio/projectDatabase.js```; the number of projects will reflow automatically)
+* Skills (```/src/components/Skills/skillsDatabase.js```; the number of skills will reflow automatically)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Hosting on GitHub Pages
+After customizing with your personal information, you can host this page with GitHub Pages.
 
-### `npm run build`
+1. ```cd [path/to/project]```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+2. ``` npm install gh-pages```
+    
+    This will install the ```gh-pages``` dependency using Node Package Manager and add ```"gh-pages": "^3.2.3"``` to the ```dependencies``` object in ```/src/package.json```
+    
+3. Add these two properties to the ```scripts``` object in ```/src/package.json```
+    
+    ```"predeploy": "npm run build"```
+    
+    ```"deploy": "gh-pages -d build"```
+    
+4. ```npm run build```
+    
+    This will build your React app and automatically create a branch called ```gh-pages``` in your Github repository.
+    
+5. In Github, go to Settings -> Pages -> Source and select the ```gh-pages``` branch. Your page will now be hosted at ```[repository-name].github.io```!
