@@ -9,7 +9,13 @@ This responsive portfolio website was [originally written](https://github.com/be
 * Created databases for Projects and Skills items to keep the components DRY
 * Implemented the light/dark theme and Projects/Skills rocker functionalities using React State Hooks rather than pure JS
 
-### Editing for Personal Use
+## Installation
+1. ```git clone https://github.com/rglanz/react-mini-portfolio.git```
+2. ``` cd react-mini-portfolio```
+3. ```npm install```
+4. ```npm start```
+
+## Editing for Personal Use
 All images and the CV pdf are found in the ```public``` directory.
 
 Customize icons from [this library](https://react-icons.github.io/react-icons/icons?name=ri).
@@ -24,8 +30,6 @@ Customize icons from [this library](https://react-icons.github.io/react-icons/ic
 * WhatsApp, Messenger (```/src/components/Header/CV.jsx```; you can change the icons as well as the url)
 * Projects (```/src/components/Portfolio/projectDatabase.js```; the number of projects will reflow automatically)
 * Skills (```/src/components/Skills/skillsDatabase.js```; the number of skills will reflow automatically)
-
-<hr/>
 
 ## Hosting on GitHub Pages
 After customizing with your personal information, you can host this page with GitHub Pages.
