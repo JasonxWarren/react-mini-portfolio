@@ -1,7 +1,7 @@
 function Footer() {
     return(
-        <footer class="footer container">
-        <span class="footer__copy"> &#169; Bedimcode. All rights reserved </span>
+        <footer className="footer container">
+        <span className="footer__copy"> &#169; Bedimcode. All rights reserved </span>
         </footer>
     )
 }

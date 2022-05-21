@@ -5,7 +5,7 @@ function Project(props) {
   const image = props.project.imgUrl
 
     return(
-      <article class="projects__card">
+      <article className="projects__card">
             <img
               src={image}
               alt=""
