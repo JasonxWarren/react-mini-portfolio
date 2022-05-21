@@ -258,7 +258,7 @@ body.dark-theme {
   box-shadow: 0 8px 24px hsla(var(--hue), var(--sat), var(--lig), .25);
 }
 
-.button i {
+.button .icon {
   font-size: 1.25rem;
 }
 
@@ -379,6 +379,8 @@ body.dark-theme {
 .skills__group {
   display: grid;
   align-content: flex-start;
+  grid-template-columns: auto auto;
+  column-gap: 1rem;
   row-gap: 1rem;
 }
 
@@ -387,7 +389,7 @@ body.dark-theme {
   column-gap: .5rem;
 }
 
-.skills__data i {
+.skills__data .icon {
   font-size: 1rem;
   color: var(--first-color);
 }
