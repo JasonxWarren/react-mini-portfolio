@@ -352,6 +352,7 @@ body.dark-theme {
 }
 
 .projects__button {
+  margin-right: .5rem;
   padding: .5rem;
 }
 
