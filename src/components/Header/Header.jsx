@@ -27,8 +27,8 @@ function Header(props) {
         
         <div className="profile__data">
           <Profile />
-          <h2 className="profile__name">Gianell Vusy</h2>
-          <h3 className="profile__profession">Web developer</h3>
+          <h2 className="profile__name">Jason Warren</h2>
+          <h3 className="profile__profession">Software Engineer</h3>
           <Social />
         </div>
         <Stats />

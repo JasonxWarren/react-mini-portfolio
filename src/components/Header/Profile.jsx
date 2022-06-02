@@ -5,7 +5,7 @@ function Profile() {
   return(
     <div className="profile__border">
       <div className="profile__perfil">
-          <img src="/img/perfil.png" alt="" />
+          <img src="/img/myprofilepic.jpeg" alt="" />
        </div>
     </div>
   )
