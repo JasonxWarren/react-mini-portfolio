@@ -11,12 +11,12 @@ function Social() {
         },
         {
             id: 'LinkedIn',
-            url: 'https://linkedin.com',
+            url: 'https://www.linkedin.com/in/jason-b-warren/',
             icon: RiLinkedinBoxLine
         },
         {
             id: 'Github',
-            url: 'https://github.com',
+            url: 'https://github.com/JasonxWarren',
             icon: RiGithubLine
         },
     ]

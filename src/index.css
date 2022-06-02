@@ -164,7 +164,7 @@ body.dark-theme {
   border-radius: 50%;
   overflow: hidden;
   display: flex;
-  align-items: flex-end;
+  align-items: flex;
   justify-content: center;
 }
 
