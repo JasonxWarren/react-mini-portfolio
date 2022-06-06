@@ -28,7 +28,7 @@ const projects = [
     subtitle: "Ask and answer tough questions that cannot easily be found on the web, and earn credits for your expertise",
     projectUrl: "https://github.com/JasonxWarren/Q-A_andEARN",
     imgUrl: "/img/project4.jpg",
-    isInteractive: true,
+    isInteractive: false,
     interactiveUrl: "",
   },
   {
@@ -36,7 +36,7 @@ const projects = [
     subtitle: "Make decisions in a Oregon Trail style game, as you learn how to manage a simple business.",
     projectUrl: "https://github.com/",
     imgUrl: "/img/project5.jpg",
-    isInteractive: true,
+    isInteractive: false,
     interactiveUrl: "",
   },
 ]

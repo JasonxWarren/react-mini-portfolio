@@ -2,50 +2,42 @@ const skills = {
   frontendSkills: [
     {
       skill: "HTML",
-      level: "Basic",
+      
     },
     {
       skill: "CSS",
-      level: "Advanced",
+      
     },
     {
       skill: "JavaScript",
-      level: "Intermediate",
+      
     },
     {
       skill: "React",
-      level: "Intermediate",
     },
     {
       skill: "Bootstrap",
-      level: "Intermediate",
     },
     {
-      skill: "Git",
-      level: "Intermediate",
+      skill: "Django",
     },
   ],
 
   backendSkills: [
     {
-      skill: "PHP",
-      level: "Intermediate",
+      skill: "Express",
     },
     {
-      skill: "MySQL",
-      level: "Advanced",
+      skill: "Mongoose",
     },
     {
-      skill: "Firebase",
-      level: "Intermediate",
+      skill: "Git",
     },
     {
       skill: "Python",
-      level: "Basic",
     },
     {
       skill: "Node JS",
-      level: "Intermediate",
     },
   ],
 }
