@@ -18,6 +18,7 @@ function Portfolio() {
     <div className="projects__content grid filters__active">
       {projectArray}
     </div>
+    
   )
 }
 

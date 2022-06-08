@@ -9,7 +9,7 @@ function CV() {
             href="/pdf/Gianell-Cv.pdf"
             className="button"
           >
-            Download CV
+            Download Resume
               <RiDownloadLine className="icon"/>
           </a>
 

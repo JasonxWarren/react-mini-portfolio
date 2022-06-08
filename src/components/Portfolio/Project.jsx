@@ -10,6 +10,7 @@ function Project(props) {
               src={image}
               alt=""
               className="projects__img"
+              
             />
 
             <div className="projects__modal">
