@@ -6,7 +6,7 @@ function CV() {
     <div className="profile__buttons">
           <a
             download=""
-            href="/pdf/Gianell-Cv.pdf"
+            href="/pdf/Jason_Warren_Resume.pdf"
             className="button"
           >
             Download Resume

@@ -215,8 +215,14 @@ body.dark-theme {
   justify-content: center;
   column-gap: 2.5rem;
 }
+.profile__aboutme {
+  justify-content: center;
+}
 
 .profile__info-group {
+  text-align: center;
+}
+.profile__info-group-aboutme {
   text-align: center;
 }
 
@@ -228,6 +234,11 @@ body.dark-theme {
 .profile__info-description {
   font-size: var(--smaller-font-size);
   font-weight: 500;
+}
+.profile__info-aboutme {
+  font-size: var(--smaller-font-size);
+  font-weight: 500;
+
 }
 
 .profile__buttons, 

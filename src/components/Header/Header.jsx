@@ -3,6 +3,7 @@ import Profile from './Profile'
 import Social from './Social'
 import Stats from './Stats'
 import CV from './CV'
+import AboutMe from './AboutMe'
 import {RiMoonLine, RiSunLine} from 'react-icons/ri'
 
 function Header(props) {
@@ -33,6 +34,7 @@ function Header(props) {
         </div>
         <Stats />
         <CV />
+        <AboutMe />
       </div>
     </header>
   )

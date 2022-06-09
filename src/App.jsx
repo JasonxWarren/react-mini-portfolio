@@ -4,6 +4,7 @@ import Rocker from './components/Rocker/Rocker'
 import Portfolio from './components/Portfolio/Portfolio'
 import Skills from './components/Skills/Skills'
 import Footer from './components/Footer/Footer'
+import AboutMe from './components/Header/AboutMe'
 
 function App() {
   const [isDarkMode, setIsDarkMode] = React.useState(false)
@@ -33,6 +34,7 @@ function App() {
         isDarkMode={isDarkMode}
         onClick={toggleDarkMode}
       />
+    
       
       <Rocker
         isDarkMode={isDarkMode}
