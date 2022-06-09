@@ -5,11 +5,6 @@ import { nanoid } from 'nanoid'
 function Social() {
     const social = [
         {
-            id: 'Instagram',
-            url: 'https://instagram.com',
-            icon: RiInstagramLine
-        },
-        {
             id: 'LinkedIn',
             url: 'https://www.linkedin.com/in/jason-b-warren/',
             icon: RiLinkedinBoxLine

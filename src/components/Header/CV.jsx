@@ -1,5 +1,5 @@
 import React from 'react'
-import {RiDownloadLine, RiWhatsappLine, RiMessengerLine} from 'react-icons/ri'
+import {RiDownloadLine, RiWhatsappLine, RiMessengerLine, RiMailLine} from 'react-icons/ri'
 
 function CV() {
   return(
@@ -14,12 +14,8 @@ function CV() {
           </a>
 
           <div className="profile__buttons-small">
-            <a href="https://whatsapp.com" target="_blank" className="button button__small button__gray">
-                <RiWhatsappLine className="icon"/>
-            </a>
-
-            <a href="https://messenger.com" target="_blank" className="button button__small button__gray">
-                <RiMessengerLine className="icon"/>
+            <a href="https://mail.google.com/mail/?view=cm&source=mailto&to=[warrenjason1@gmail.com]" target="_blank" className="button button__small button__gray">
+                <RiMailLine className="icon"/>
             </a>
         </div>
     </div>
