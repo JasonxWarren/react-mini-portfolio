@@ -1,5 +1,6 @@
 {
   "name": "react-mini-portfolio",
+  "homepage": "https://jasonxwarren.github.io/react-mini-portfolio/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
