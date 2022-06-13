@@ -2,11 +2,12 @@ import React from 'react'
 import {RiDownloadLine, RiWhatsappLine, RiMessengerLine, RiMailLine} from 'react-icons/ri'
 
 function CV() {
+  let resume= process.env.PUBLIC_URL + "./pdf/Jason_Warren_Resume.pdf"
   return(
     <div className="profile__buttons">
           <a
             download=""
-            href="/pdf/Jason_Warren_Resume.pdf"
+            href="./pdf/Jason_Warren_Resume.pdf"
             className="button"
           >
             Download Resume
