@@ -51,3 +51,4 @@ After customizing with your personal information, you can host this page with Gi
     This will build your React app and automatically create a branch called ```gh-pages``` in your Github repository.
     
 5. In Github, go to Settings -> Pages -> Source and select the ```gh-pages``` branch. Your page will now be hosted at ```[repository-name].github.io```!
+6. testing this
