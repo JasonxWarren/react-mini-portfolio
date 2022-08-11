@@ -154,6 +154,9 @@ body.dark-theme {
   display: grid;
   text-align: center;
 }
+.profile_pic {
+  border-radius: inherit;
+}
 
 .profile__perfil {
   width: 100px;
@@ -164,7 +167,7 @@ body.dark-theme {
   border-radius: 50%;
   overflow: hidden;
   display: flex;
-  align-items: flex-end;
+  align-items: center;
   justify-content: center;
 }
 
